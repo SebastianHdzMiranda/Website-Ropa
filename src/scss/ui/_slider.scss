@@ -1,0 +1,69 @@
+@use 'bases/variables' as v; 
+@use 'bases/mixins' as m;
+
+
+.swiper{
+    margin-bottom: 5rem;
+    .swiper-wrapper{
+        cursor: pointer;
+    }
+    .swiper-button-prev::after,
+    .swiper-button-next::after {
+        display: none;
+        // @include m.tablet {
+        //     color: v.$blanco;
+        //     display: inline-block;
+        //     font-size: 3rem;
+        // }
+    }
+    .swiper-pagination-bullet {
+        background-color: v.$blanco;
+
+        // @include m.tablet {
+        //     display: none;
+        // }
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: v.$blanco;
+    }
+}
+
+.swiperImg{
+    min-height: 30rem;
+    height: 45rem;
+    // object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    @include m.tablet{
+        height: auto;
+    }
+    @include m.desktop{
+        height: 50rem;
+        max-height: 50rem;
+    }
+    &--1{
+        background-image: url(../img/slide_1.webp);
+        @include m.tablet{
+            background-image: url(../img/slide_01.webp);
+        }
+    }
+    &--2{
+        background-image: url(../img/slide_2.webp);
+        @include m.tablet{
+            background-image: url(../img/slide_02.webp);
+        }
+    }
+    &--3{
+        background-image: url(../img/slide_3.webp);
+        @include m.tablet{
+            background-image: url(../img/slide_03.webp);
+        }
+    }
+    &--4{
+        background-image: url(../img/slide_4.webp);
+        @include m.tablet{
+            background-image: url(../img/slide_04.webp);
+        }
+    }
+}

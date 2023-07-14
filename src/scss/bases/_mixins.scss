@@ -1,0 +1,60 @@
+@use 'variables' as v; 
+
+/** Media Queries **/
+@mixin telefono {
+    @media (min-width: v.$telefono) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (min-width: v.$tablet) {
+        @content;
+    }
+}
+  
+@mixin desktop {
+    @media (min-width: v.$desktop) {
+        @content;
+    }
+}
+
+
+@mixin boton($bgColor, $colorTexto) {
+    letter-spacing: 1.8px;
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    padding: .8rem 6rem;
+    transition: all .3s ease;
+    background-color: $bgColor;
+    color: v.$blanco;
+
+    &:hover {
+        background-color: darken($bgColor, 10%);
+    }
+}
+
+@mixin grid($columnas, $espaciado ) {
+    display: grid;
+    gap: $espaciado;
+    grid-template-columns: repeat($columnas, 1fr);
+}
+@mixin headingCursiva() {
+    color: v.$beige;
+    font-family: v.$fuenteCursiva;
+    line-height: .8;
+    font-weight: 400;
+    text-transform: lowercase;
+    margin-bottom: 4rem;
+    font-size: 4rem;
+
+    >* {
+        display: block;
+        font-weight: 300;
+        font-size: 4rem;
+        font-family: v.$fuentePrincipal;
+        font-family: v.$fuenteHeading;
+        text-transform: uppercase;
+        color: initial;
+    }
+}
