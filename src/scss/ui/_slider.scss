@@ -39,8 +39,7 @@
         height: auto;
     }
     @include m.desktop{
-        height: 50rem;
-        max-height: 50rem;
+        height: 55rem;
     }
     &--1{
         background-image: url(../img/slide_1.webp);

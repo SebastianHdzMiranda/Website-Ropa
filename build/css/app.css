@@ -299,8 +299,7 @@ p {
 }
 @media (min-width: 1024px) {
   .swiperImg {
-    height: 50rem;
-    max-height: 50rem;
+    height: 55rem;
   }
 }
 .swiperImg--1 {
