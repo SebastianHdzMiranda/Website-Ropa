@@ -4,7 +4,7 @@
 /* Header
 ----------------------------------------------------------*/
 .header{
-    padding: 1.5rem 0;
+    padding: 1rem 0;
     @include m.tablet{
         padding-top: 2.5rem;
     }
@@ -35,6 +35,9 @@
             display: unset;
         }
 
+    }
+    &__enlace{
+        display: inline-block;
     }
     &__heading{
         margin: 0;

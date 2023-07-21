@@ -110,7 +110,7 @@ p {
 /* Header
 ----------------------------------------------------------*/
 .header {
-  padding: 1.5rem 0;
+  padding: 1rem 0;
 }
 @media (min-width: 768px) {
   .header {
@@ -148,6 +148,9 @@ p {
     display: flex;
     display: unset;
   }
+}
+.header__enlace {
+  display: inline-block;
 }
 .header__heading {
   margin: 0;
