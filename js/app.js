@@ -28,7 +28,7 @@ var swiper = new Swiper(".mySwiper", {
       clickable: true,
     },
     loop: true,
-    // autoplay:{
-    //     delay: 3000,
-    // },
+    autoplay:{
+        delay: 3000,
+    },
 });

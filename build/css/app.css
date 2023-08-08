@@ -156,7 +156,7 @@ p {
   margin: 0;
 }
 .header__logo {
-  width: 13rem;
+  width: 15rem;
 }
 @media (min-width: 768px) {
   .header__logo {
@@ -191,7 +191,7 @@ p {
   position: absolute;
   left: 0;
   right: 0;
-  top: 62px;
+  top: 66px;
   bottom: 0;
   z-index: 3;
   height: 0;
@@ -210,7 +210,7 @@ p {
   }
 }
 .drawer--activo {
-  height: calc(100% - 62px);
+  height: calc(100% - 66px);
   opacity: 1;
 }
 
@@ -408,7 +408,7 @@ p {
   text-align: start;
   padding-top: 5rem;
   display: grid;
-  gap: 2rem;
+  gap: 1.5rem;
   grid-template-columns: repeat(2, 1fr);
 }
 @media (min-width: 768px) {
@@ -423,7 +423,7 @@ p {
   .productos {
     width: 85%;
     display: grid;
-    gap: 4rem;
+    gap: 3rem;
     grid-template-columns: repeat(4, 1fr);
   }
 }
@@ -435,7 +435,7 @@ p {
   gap: 1.2rem;
 }
 .producto_info img {
-  width: 3rem;
+  width: 2.5rem;
   margin-right: 1rem;
 }
 
@@ -543,6 +543,43 @@ p {
   position: relative;
 }
 
+.iconUp {
+  width: 4.5rem;
+  height: 4.5rem;
+  text-align: center;
+  line-height: 45px;
+  font-size: 3.5rem;
+  border-radius: 3px;
+  background: #fff;
+  color: #878787;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
+  position: fixed;
+  bottom: 21px;
+  right: 18px;
+  z-index: 100;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.iconUp .iconUp__up {
+  width: 3rem;
+}
+
+.iconChat {
+  width: 5rem;
+  height: 5rem;
+  position: fixed;
+  background-color: #50b285;
+  border-radius: 50%;
+  bottom: 21px;
+  left: 18px;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .prueba {
   padding: 20rem 0;
 }

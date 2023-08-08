@@ -1,0 +1,47 @@
+@use 'bases/variables' as v; 
+@use 'bases/mixins' as m;
+
+
+.iconUp{
+    width: 4.5rem;
+    height: 4.5rem;
+    text-align: center;
+    line-height: 45px;
+    font-size: 3.5rem;
+    border-radius: 3px;
+    background: #fff;
+    color: #878787;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,.2);
+    position: fixed;
+    bottom: 21px;
+    right: 18px;
+    z-index: 100;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+    .iconUp__up{
+        width: 3rem;
+    }
+}
+.iconChat{
+    width: 5rem;
+    height: 5rem;
+    position: fixed;
+    background-color: v.$azul;
+    border-radius: 50%;
+    bottom: 21px;
+    left: 18px;
+    z-index: 100;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .iconChat__chat{
+
+    }
+}
