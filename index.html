@@ -16,7 +16,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
 
+
     <link rel="stylesheet" href="build/css/app.css">
+
+    <link rel="preload" href="build/img/galery/1.2.webp" as="image">
+    <link rel="preload" href="build/img/galery/2.2.webp" as="image">
+    <link rel="preload" href="build/img/galery/3.2.webp" as="image">
+    <link rel="preload" href="build/img/galery/4.2.webp" as="image">
+    <link rel="preload" href="build/img/galery/5.2.webp" as="image">
+    <link rel="preload" href="build/img/galery/6.2.webp" as="image">
+    <link rel="preload" href="build/img/galery/7.2.webp" as="image">
+    <link rel="preload" href="build/img/galery/8.2.webp" as="image">
 
 </head>
 <body>
@@ -83,7 +93,7 @@
         <p class="anuncio__texto contenedor"> 45% de DESCUENTO en pedidos de mayoreo, compra mínima de $6,500</p>
     </section>
     
-    <section class="swiper mySwiper">
+    <section class="swiper mySwiper hero">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="swiperImg swiperImg--1"></div>
@@ -108,22 +118,19 @@
     </main> -->
 
     <main class="main contenedor">
-        <h2 class="main__heading">Colección 2023 Primavera Verano</h2>
+        <p class="main__text">Colección 2023</p>
+        <h2 class="main__heading">Primavera Verano</h2>
 
         <div class="productos" id="productos">
             
             <div class="producto">
-                <div class="producto_img">
-                    <picture>
-                        <source srcset="build/img/galeria/01.avif" type="image/avif">
-                        <source srcset="build/img/galeria/01.webp" type="image/webp">
-                        <source srcset="build/img/galeria/01.jpg" type="image/jpg">
-                        <img loading="lazy" src="build/img/galeria/01.jpg" width="500" height="300" alt="Imagen Playera">
-                    </picture>
+                <div class="producto_img producto_img--1">
+                    
                 </div>
+
                 <div class="producto_info">
                     <div class="producto_texto">
-                        <p class="producto_nombre">Producto 1</p>
+                        <p class="producto_nombre">Vestido Cuello en V</p>
                         <p class="producto_precio">$<span>199.00</span></p>
                     </div>
                     <div class="producto__add">
@@ -135,17 +142,12 @@
             </div><!-- producto -->
 
             <div class="producto">
-                <div class="producto_img">
-                    <picture>
-                        <source srcset="build/img/galeria/02.avif" type="image/avif">
-                        <source srcset="build/img/galeria/02.webp" type="image/webp">
-                        <source srcset="build/img/galeria/02.jpg" type="image/jpg">
-                        <img loading="lazy" src="build/img/galeria/02.jpg" width="500" height="300" alt="Imagen Playera">
-                    </picture>
+                <div class="producto_img producto_img--2">
+                    
                 </div>
                 <div class="producto_info">
                     <div class="producto_texto">
-                        <p class="producto_nombre">Producto 2</p>
+                        <p class="producto_nombre">Blusa con Textura</p>
                         <p class="producto_precio">$<span>199.00</span></p>
                     </div>
                     <div class="producto__add">
@@ -157,17 +159,12 @@
             </div><!-- producto -->
 
             <div class="producto">
-                <div class="producto_img">
-                    <picture>
-                        <source srcset="build/img/galeria/03.avif" type="image/avif">
-                        <source srcset="build/img/galeria/03.webp" type="image/webp">
-                        <source srcset="build/img/galeria/03.jpg" type="image/jpg">
-                        <img loading="lazy" src="build/img/galeria/03.jpg" width="500" height="300" alt="Imagen Playera">
-                    </picture>
+                <div class="producto_img producto_img--3">
+
                 </div>
                 <div class="producto_info">
                     <div class="producto_texto">
-                        <p class="producto_nombre">Producto 3</p>
+                        <p class="producto_nombre">Blusa con Textura</p>
                         <p class="producto_precio">$<span>199.00</span></p>
                     </div>
                     <div class="producto__add">
@@ -179,17 +176,12 @@
             </div><!-- producto -->
 
             <div class="producto">
-                <div class="producto_img">
-                    <picture>
-                        <source srcset="build/img/galeria/04.avif" type="image/avif">
-                        <source srcset="build/img/galeria/04.webp" type="image/webp">
-                        <source srcset="build/img/galeria/04.jpg" type="image/jpg">
-                        <img loading="lazy" src="build/img/galeria/04.jpg" width="500" height="300" alt="Imagen Playera">
-                    </picture>
+                <div class="producto_img producto_img--4">
+                    
                 </div>
                 <div class="producto_info">
                     <div class="producto_texto">
-                        <p class="producto_nombre">Producto 4</p>
+                        <p class="producto_nombre">Blusa Estampada</p>
                         <p class="producto_precio">$<span>199.00</span></p>
                     </div>
                     <div class="producto__add">
@@ -201,17 +193,12 @@
             </div><!-- producto -->
 
             <div class="producto">
-                <div class="producto_img">
-                    <picture>
-                        <source srcset="build/img/galeria/05.avif" type="image/avif">
-                        <source srcset="build/img/galeria/05.webp" type="image/webp">
-                        <source srcset="build/img/galeria/05.jpg" type="image/jpg">
-                        <img loading="lazy" src="build/img/galeria/05.jpg" width="500" height="300" alt="Imagen Playera">
-                    </picture>
+                <div class="producto_img producto_img--5">
+
                 </div>
                 <div class="producto_info">
                     <div class="producto_texto">
-                        <p class="producto_nombre">Producto 5</p>
+                        <p class="producto_nombre">Blusa Cuello Ojal</p>
                         <p class="producto_precio">$<span>199.00</span></p>
                     </div>
                     <div class="producto__add">
@@ -223,17 +210,12 @@
             </div><!-- producto -->
 
             <div class="producto">
-                <div class="producto_img">
-                    <picture>
-                        <source srcset="build/img/galeria/06.avif" type="image/avif">
-                        <source srcset="build/img/galeria/06.webp" type="image/webp">
-                        <source srcset="build/img/galeria/06.jpg" type="image/jpg">
-                        <img loading="lazy" src="build/img/galeria/06.jpg" width="500" height="300" alt="Imagen Playera">
-                    </picture>
+                <div class="producto_img producto_img--6">
+
                 </div>
                 <div class="producto_info">
                     <div class="producto_texto">
-                        <p class="producto_nombre">Producto 6</p>
+                        <p class="producto_nombre">Blusa Off Shoulder</p>
                         <p class="producto_precio">$<span>199.00</span></p>
                     </div>
                     <div class="producto__add">
@@ -245,17 +227,12 @@
             </div><!-- producto -->
 
             <div class="producto">
-                <div class="producto_img">
-                    <picture>
-                        <source srcset="build/img/galeria/07.avif" type="image/avif">
-                        <source srcset="build/img/galeria/07.webp" type="image/webp">
-                        <source srcset="build/img/galeria/07.jpg" type="image/jpg">
-                        <img loading="lazy" src="build/img/galeria/07.jpg" width="500" height="300" alt="Imagen Playera">
-                    </picture>
+                <div class="producto_img producto_img--7">
+
                 </div>
                 <div class="producto_info">
                     <div class="producto_texto">
-                        <p class="producto_nombre">Producto 7</p>
+                        <p class="producto_nombre">Blusa Cuello V</p>
                         <p class="producto_precio">$<span>199.00</span></p>
                     </div>
                     <div class="producto__add">
@@ -267,17 +244,12 @@
             </div><!-- producto -->
 
             <div class="producto">
-                <div class="producto_img">
-                    <picture>
-                        <source srcset="build/img/galeria/08.avif" type="image/avif">
-                        <source srcset="build/img/galeria/08.webp" type="image/webp">
-                        <source srcset="build/img/galeria/08.jpg" type="image/jpg">
-                        <img loading="lazy" src="build/img/galeria/08.jpg" width="500" height="300" alt="Imagen Playera">
-                    </picture>
+                <div class="producto_img producto_img--8">
+
                 </div>
                 <div class="producto_info">
                     <div class="producto_texto">
-                        <p class="producto_nombre">Producto 8</p>
+                        <p class="producto_nombre">Blusa Estampada</p>
                         <p class="producto_precio">$<span>199.00</span></p>
                     </div>
                     <div class="producto__add">

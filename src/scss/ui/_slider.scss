@@ -2,7 +2,7 @@
 @use 'bases/mixins' as m;
 
 
-.swiper{
+.hero{
     margin-bottom: 5rem;
     .swiper-wrapper{
         cursor: pointer;
@@ -30,16 +30,23 @@
 }
 
 .swiperImg{
-    min-height: 30rem;
-    height: 45rem;
+    // min-height: 30rem;
+    // height: 45rem;
     // object-fit: cover;
+    height: 0;
+    padding-bottom: 120%;
     background-size: cover;
     background-position: center;
+    @include m.telefono{
+        padding-bottom: 100%;
+    }
     @include m.tablet{
-        height: auto;
+        // height: auto;
+        padding-bottom: 38%;
     }
     @include m.desktop{
-        height: 55rem;
+        // height: 55rem;
+        padding-bottom: 35%;
     }
     &--1{
         background-image: url(../img/slide_1.webp);
