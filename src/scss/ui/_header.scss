@@ -4,7 +4,7 @@
 /* Header
 ----------------------------------------------------------*/
 .header{
-    padding: 1.5rem 0;
+    padding: 1rem 0;
     @include m.tablet{
         padding-top: 2.5rem;
     }
@@ -50,7 +50,7 @@
     }
     &__icons{
         display: flex;
-        gap: 2rem;
+        gap: .8rem;
         justify-content: flex-end;
         flex: .5;
         @include m.tablet{
@@ -64,7 +64,7 @@
         }
     }
     &__icon{
-        width: 2rem;
+        width: 2.5rem;
         @include m.tablet{
             width: 2.8rem;
         }

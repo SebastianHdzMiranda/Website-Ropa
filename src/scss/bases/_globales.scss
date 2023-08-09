@@ -19,6 +19,18 @@ body {
     font-size: 1.6rem;
     overflow-x: hidden;
 }
+/* Ocultar la barra de desplazamiento */
+::-webkit-scrollbar {
+    width: 0.5em;
+    width: 0;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
 [class$="contenedor"],
 .contenedor {
     width: min(90%,120rem);

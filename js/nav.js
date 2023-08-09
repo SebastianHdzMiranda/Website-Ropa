@@ -31,9 +31,8 @@ function mostrarMenu(e) {
 }
 
 function ocultarMenu(e) {
-    e.preventDefault();
-    const enlace = e.target;
-    if (enlace.classList.contains('navegacion__enlace')) {
+    // const enlace = e.target;
+    // if (enlace.classList.contains('navegacion__enlace')) {
         
         if (nav.classList.contains('drawer--activo')) {
             nav.classList.remove('drawer--activo');
@@ -50,7 +49,7 @@ function ocultarMenu(e) {
         // if(enlace.textContent.trim() === enlaces.productos) {
         //     productos.scrollIntoView({ behavior: 'smooth' });
         // }
-    }
+    // }
 }
 
 
