@@ -3,7 +3,7 @@
 
 
 .hero{
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
     .swiper-wrapper{
         cursor: pointer;
     }
@@ -35,6 +35,7 @@
     // object-fit: cover;
     height: 0;
     padding-bottom: 120%;
+    padding-bottom: 140%;
     background-size: cover;
     background-position: center;
     @include m.telefono{

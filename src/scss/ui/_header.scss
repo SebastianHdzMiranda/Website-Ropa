@@ -5,7 +5,12 @@
 ----------------------------------------------------------*/
 .header{
     padding: 1rem 0;
+    padding: 2.2rem 0 0.7rem 0;
+    box-shadow: -1px 3px 22px -17px rgba(0,0,0,0.63);
+    position: relative;
+    z-index: 20;
     @include m.tablet{
+        box-shadow: none;
         padding-top: 2.5rem;
     }
     &__contenido{
@@ -43,7 +48,7 @@
         margin: 0;
     }
     &__logo{
-        width: 15rem;
+        width: 16rem;
         @include m.tablet{
             width: 25rem;
         }
@@ -53,20 +58,26 @@
         gap: .8rem;
         justify-content: flex-end;
         flex: .5;
+        align-items: center;
         @include m.tablet{
             // flex: unset;
             gap: 3rem;
         }
     }
     &__enlaces{
-        &--search{
-            transform: translateY(1px);
-        }
+        // &--search{
+        //     transform: translateY(1px);
+        // }
     }
+
     &__icon{
-        width: 2.5rem;
+        width: 2rem;
+        &--search{
+            width: 2.2rem;
+        }
         @include m.tablet{
             width: 2.8rem;
         }
+        
     }
 }

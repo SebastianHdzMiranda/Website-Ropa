@@ -2,18 +2,18 @@
 @use 'bases/mixins' as m;
 
 .drawer{
-    border-top: 1px solid black;
-    border-top: 1px solid #00000069;
+    // border-top: 1px solid black;
+    // border-top: 1px solid #00000069;
     position: absolute;
     left: 0;
     right: 100%;
-    top: 57px;
+    top: 72px;
     bottom: 0;
     z-index: 3;
     // height: 0;
-    // height: calc(100% - 57px);
+    // height: calc(100% - 72px);
     overflow: hidden;
-    transition: all .08s ease;
+    transition: all .08s ease-in-out;
     // opacity: 0;
 
 
@@ -42,7 +42,7 @@
         border-top: unset;
     }
     &--activo{
-        // height: calc(100% - 57px);
+        // height: calc(100% - 72px);
         // opacity: 1;
         left: 0;
         right: 0;
