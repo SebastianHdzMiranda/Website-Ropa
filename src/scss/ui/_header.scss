@@ -43,6 +43,7 @@
     }
     &__enlace{
         display: inline-block;
+        width: 2.6rem;
     }
     &__heading{
         margin: 0;
@@ -61,23 +62,21 @@
         align-items: center;
         @include m.tablet{
             // flex: unset;
-            gap: 3rem;
+            gap: 2.5rem;
         }
     }
     &__enlaces{
-        // &--search{
-        //     transform: translateY(1px);
-        // }
+        width: 2rem;
+        
+        @include m.tablet{
+            width: 2.6rem;
+        }
+        &--search{
+            @include m.tablet{
+                width: 2.4rem;
+            }
+        }
     }
 
-    &__icon{
-        width: 2rem;
-        &--search{
-            width: 2.2rem;
-        }
-        @include m.tablet{
-            width: 2.8rem;
-        }
-        
-    }
+ 
 }
